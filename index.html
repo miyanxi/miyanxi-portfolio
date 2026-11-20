@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="米彦晞的 AI 应用作品集：从客户需求、方案设计到开发交付，展示教育、体育和经营分析项目。">
+  <meta name="theme-color" content="#f5f4ef">
+  <title>米彦晞的个人网站 · AI 应用作品集</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header wrap"><a class="wordmark" href="#">米彦晞<span> / 作品集</span></a><nav aria-label="主导航"><a href="#work">项目</a><a href="#approach">工作方式</a><a href="#about">关于</a><a href="https://github.com/miyanxi" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav></header>
+  <main>
+    <section class="hero wrap">
+      <div class="eyebrow"><span class="dot"></span> AI APPLICATIONS · 从需求到交付</div>
+      <h1>把实际需求，<br>做成<span class="serif">可用的应用。</span></h1>
+      <div class="hero-bottom"><p>我是米彦晞，方向是 AI 应用与大模型应用工程。<br>在四个独立项目中，我直接对接客户，完成需求理解、方案调整、开发、交付与使用指导。</p><a class="round-link" href="#work">探索作品 <span>↓</span></a></div>
+      <div class="hero-meta"><span>教育与体育 / 业务数据工具</span><span>独立交付 · 模型接入 · Web 应用</span></div>
+    </section>
+
+    <section id="work" class="wrap projects-section">
+      <div class="section-head"><div><div class="eyebrow">01 / SELECTED WORK</div><h2>项目里的答案</h2></div><p>实际界面、可体验的演示，以及每个项目的能力边界。</p></div>
+      <div class="filters" role="group" aria-label="筛选项目"><button class="active" data-filter="all" aria-pressed="true">全部项目 <span>06</span></button><button data-filter="ai" aria-pressed="false">AI 应用</button><button data-filter="data" aria-pressed="false">数据工具</button><button data-filter="team" aria-pressed="false">团队案例</button></div>
+      <div id="projects" class="project-grid"></div>
+      <noscript><p>项目列表需要 JavaScript。也可直接访问 <a href="https://github.com/miyanxi">GitHub 查看全部作品</a>。</p></noscript>
+    </section>
+
+    <section id="approach" class="approach"><div class="wrap"><div class="section-head"><div><div class="eyebrow">02 / HOW I WORK</div><h2>从一句需求，<br>到一次完整交付。</h2></div><p>四个独立项目的共同点，是我始终跟进完整流程，<br>也负责把工具交到使用者手里。</p></div><div class="steps"><article><span>01</span><h3>理解问题</h3><p>直接与客户沟通，弄清使用场景、现有资料与真正需要解决的问题。</p></article><article><span>02</span><h3>制定方案</h3><p>把需求转成流程和功能，沟通取舍，随反馈调整方案。</p></article><article><span>03</span><h3>开发与验证</h3><p>完成界面、数据处理与模型服务接入，让关键流程能够运行。</p></article><article><span>04</span><h3>交付与指导</h3><p>跟进作品微调，指导客户申请与配置自己的 API Key，并说明使用边界。</p></article></div></div></section>
+
+    <section id="about" class="about wrap"><div><div class="eyebrow">03 / ABOUT</div><h2>让模型能力，<br>进入实际工作流。</h2></div><div><p class="about-lead">我关注 AI 应用工程与大模型应用工程方向，愿意从业务问题出发，同时把产品流程、数据与工程实现连接起来。</p><p>这些作品涉及 Python / FastAPI、React / TypeScript、SQLite / IndexedDB 和模型 API。模型负责理解与生成，程序负责记录与计算；需要教师或使用者判断的环节，保留明确的确认与审核。</p><a class="text-link" href="https://github.com/miyanxi" target="_blank" rel="noopener noreferrer">在 GitHub 了解更多 ↗</a></div></section>
+  </main>
+  <footer class="wrap"><span>米彦晞 · 持续构建中</span><p>个人项目使用虚构演示数据；团队项目仅作案例介绍。<br>在线功能范围以各项目说明为准，页面不可用时可查看截图。</p><a href="#">回到顶部 ↑</a></footer>
+  <dialog id="case-dialog" aria-labelledby="case-title"><div class="dialog-bar"><span>PROJECT NOTES</span><button id="close-dialog" aria-label="关闭项目详情">关闭 ×</button></div><div id="case-content"></div></dialog>
+</body>
+</html>
